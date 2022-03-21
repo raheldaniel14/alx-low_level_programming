@@ -1,32 +1,20 @@
 #include "main.h"
+
 /**
- * _strcpy - copie the string
- * @dest: array that returns
- * @src: the pointer that receive the string
+ * _strcpy - function with two arguments
+ * @dest: 1st argument char type pointer
+ * @src: 2nd argument char type pointer
  *
- * Return: the parameter dest.
+ * Description: copies the string to an array
+ * Return: na
  */
 char *_strcpy(char *dest, char *src)
 {
-	int n = 0;
 	int i;
 
-	while (src[n] != '\0')
-	{
-		n++;
-	}
-
-	i = 0;
-	while (i < n && src[i] != '\0')
-	{
+	for (i = 0; src[i] != '\0'; i++)
 		dest[i] = src[i];
-		i++;
-	}
-
-	i = i;
-	while (i <= n)
-	{
+	for (i < src[i]; i++)
 		dest[i] = '\0';
-		i++;
-	}
 	return (dest);
+}
