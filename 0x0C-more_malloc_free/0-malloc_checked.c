@@ -1,3 +1,23 @@
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+/**
+ * main - adds positive numbers
+ * @argc: n args
+ * @argv: arr args
+ * Return: 0
+ */
 int **alloc_grid(int width, int height)
 {
  int **array;
